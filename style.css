@@ -1,0 +1,107 @@
+.main-body{
+    background-image: url("resource/background-body.svg");
+    background-size: cover; /* sampurna page ekma cover wenna */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    background-image: url("resource/logo.svg");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* fonts register karnwa */
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+/* * eken kiyanne okkotma add wenna kiyna eka & wisheshayen nokiyapu then waltath meka tamai add wenne*/
+*{
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+.title1{
+    font-family: "Honey";
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.background{
+    background-image: url("resource/background.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cart-icon{
+    background-image: url("resource/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.poster-img-1{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.poster-caption{
+    margin-bottom: 150px;
+}
+
+.poster-title{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.poster-txt{
+    font-size: 20px;
+    color: gray;
+}
+
+.poster-caption-1{
+    margin-bottom: 70px;
+    margin-right: 300px;
+}
+
+.signout:hover{
+    cursor: pointer;
+}
+
+.pm{
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pm1{
+    background-image: url("resource/payment_method/visa_img.png");
+}
+
+.pm2{
+    background-image: url("resource/payment_method/mastercard_img.png");
+}
+
+.pm3{
+    background-image: url("resource/payment_method/american_express_img.png");
+}
+
+.pm4{
+    background-image: url("resource/payment_method/paypal_img.png");
+}
